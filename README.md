@@ -30,6 +30,7 @@ neural network, or load ready-made weights.
 ## Education
 
 ![train](./images/train.png)
+
 In order for the neural network to be able to determine the letter, it is necessary to train it, or load ready-made weights.
 
 1. Training is launched on the `TRAIN` button in a separate thread, with parameters from the settings (by default, this is a classic
@@ -42,6 +43,7 @@ If you wish, you can save the received weights on the `↓` button to the direct
 ## Tests
 
 ![test](./images/test.png)
+
 After the neural network has been trained or the weights have been loaded, you can run tests on the specified sample
 (from 0 to 1, in case of 0 - there is no test sample, tests are not run, in case of 1 - test sample is 100%)
 over this neural network.
@@ -59,6 +61,7 @@ The input test data must also be selected correctly by the user.
 ## Settings
 
 ![settings](./images/settings.png)
+
 Settings open on the `SETTINGS` button, you can configure them:
 1. Type of neural network, graph or matrix. `MATRIX` or `GRAPH`.
 2. The number of hidden layers. `2-5`.
